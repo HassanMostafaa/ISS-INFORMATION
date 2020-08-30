@@ -76,9 +76,16 @@ footer {
 }
 
 @media screen and (max-width:700px) {
-    .text {
-        margin: 5px;
+    h1 {
+        padding: 10px 0;
+        text-align: center;
+    }
 
+    .iss-data {
+        margin: 0px 0 20px 5px;
+    }
 
+    footer {
+        text-align: center;
     }
 }
