@@ -1,91 +1,97 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
-    list-style: none;
-    font-family: 'Montserrat', sans-serif;
-    padding: 0;
-    margin: 0;
-    text-transform: capitalize;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  text-transform: capitalize;
+  box-sizing: border-box;
 }
 
 a {
-    color: rgb(83, 138, 255);
-    text-decoration: none;
-    outline: none;
+  color: rgb(83, 138, 255);
+  text-decoration: none;
+  outline: none;
 }
 
 body {
-    background: rgb(233, 233, 233);
-    color: #252525;
+  background: rgb(233, 233, 233);
+  color: #252525;
 }
 
 .body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
 }
 
 body::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
-
-
 h4 {
-    display: inline-block;
+  display: inline-block;
 }
 
 .iss-data {
-    margin: 0px 0 20px 20px;
+  margin: 0px 0 20px 20px;
 }
 
 .text {
-    margin: 0px;
-
-
+  margin: 0px;
 }
 
 #mapid {
-    height: 100%;
-    min-height: 300px;
-    /* max-height: 400px; */
-    width: 100%;
-    margin: 0 auto;
-    background: linear-gradient(45deg, #555 12.5%, #333 12.5%, #333 37.5%, #555 37.5%, #555 62.5%, #333 62.5%, #333 87.5%, #555 87.5%);
-    background-size: 100px 100px;
-    background-position: 50px 50px;
+  height: 100%;
+  min-height: 300px;
+  /* max-height: 400px; */
+  width: 100%;
+  margin: 0 auto;
+  background: linear-gradient(
+    45deg,
+    #555 12.5%,
+    #333 12.5%,
+    #333 37.5%,
+    #555 37.5%,
+    #555 62.5%,
+    #333 62.5%,
+    #333 87.5%,
+    #555 87.5%
+  );
+  background-size: 100px 100px;
+  background-position: 50px 50px;
 }
 
 h1 {
-    background: rgba(26, 26, 26, 1);
-    color: rgb(240, 240, 240);
-    /* border-bottom: 1px solid rgb(0, 0, 0); */
-    margin: 0 !important;
-    padding: 5px 0px 5px 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.501);
+  background: rgba(0, 0, 0, 0.85);
+  color: rgb(240, 240, 240);
+  /* border-bottom: 1px solid rgb(0, 0, 0); */
+  margin: 0 !important;
+  padding: 5px 0px 5px 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.501);
 }
 
 footer {
-
-    text-align: right;
-    background: rgba(107, 107, 107, 0);
-    color: #202020;
-    font-weight: 400;
-    padding: 5px;
+  text-align: right;
+  background: rgba(107, 107, 107, 0);
+  color: #202020;
+  font-weight: 400;
+  padding: 5px;
 }
 
-@media screen and (max-width:700px) {
-    h1 {
-        padding: 10px 0;
-        text-align: center;
-    }
+@media screen and (max-width: 700px) {
+  h1 {
+    padding: 10px 5px;
+    text-align: center;
+  }
 
-    .iss-data {
-        margin: 0px 0 20px 5px;
-    }
+  .iss-data {
+    margin: 0px 0 20px 15px;
+  }
 
-    footer {
-        text-align: center;
-    }
+  footer {
+    text-align: center;
+  }
 }
