@@ -36,7 +36,8 @@ async function getISS() {
     document.getElementById("units").innerHTML = units;
 
     function map() {
-      const mymap = L.map("mapid").setView([latitude, longitude], 5);
+      const mymap = L.map("mapid").setView([latitude, longitude], 3);
+
       L.tileLayer(
         "https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiaGFzc2FubW9zdGFmYSIsImEiOiJja2VkOGVpYnYwcGduMnZtdHQwajFnMWFzIn0.D3Jjox2EP4YVMp6d94coCA",
         {
